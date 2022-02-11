@@ -1,0 +1,196 @@
+.container { 
+    margin-top: 2%;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid;
+}
+
+article { 
+    position: relative;
+    left: 15%;
+    width: 70%;
+}
+
+form { 
+    position: relative;
+    left: 15%;
+    width: 70%; 
+}
+
+/* Dialog */
+
+#dialog > form {
+    height: 300px;
+    margin: 50px 0;
+    width: 465px;
+    left: 30%;
+}
+
+#dialog #article-title {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+#dialog .button-container {
+    margin-top: 200px;
+}
+
+input {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr { 
+    border-width: 2px;
+    background: black;
+    width: 100%;
+}
+
+/* article-edit title and content wrappers */
+
+#content-wrapper { 
+    width: 100%;
+}
+
+h3 {
+    padding: 0 2%;
+}
+
+/* table */
+table { 
+    width: 100%;
+    margin: 3% 0;
+}
+
+td { 
+    padding: 5px 0;
+}
+
+/* links */
+#show, #edit{ 
+    text-decoration: none;
+    color: rgb(16, 159, 184)
+}
+
+.delete { 
+    color: red;
+    background-color: red;
+}
+
+/* content */
+p { 
+    text-align: justify;
+}
+
+
+/* button container */
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+
+#button-container-dialog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+#button-container-dialog a { 
+    position: relative;
+    top: 10px;
+}
+
+.button { 
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* buttons: edit/save and back to articles */
+.button-update {
+    width: 100px;
+}
+
+.bigger-button { 
+    width: 200px;
+
+}
+
+.back {
+    margin-left: auto;
+}
+
+.linker {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+
+    border: 1px solid #CCC;
+    background:#DDD;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+}
+
+.bigger-button:active {
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+
+/* articles dialog buttons */
+.left-dialog { 
+    width: 70%;
+    padding-top: 10px;
+}
+
+.right-dialog {
+    padding: 10px;
+    width: auto;
+}
+
+#button-previous {
+    display: inline-block;
+}
+
+#button-next { 
+    display: inline-block;
+}
+
+#page-count { 
+    display: inline-block;
+}
+
+#button-create-article {
+    display: inline-block;
+}
+
+.button-container a {
+    position: relative;
+    top: 10px;
+}
+
+#edit-button {
+    background-color: lightseagreen;
+}
+
+#save-button {
+    background-color: green;
+}
+
+#edit-back-to-articles {
+    background-color: red;
+}
+
+#edit-form {
+    top: 10px;
+}
+
+.anchor-button {
+    text-decoration: none;
+}
+
+#search-tag {
+    display: block;
+    left: 0;
+    top: 5px;
+}
